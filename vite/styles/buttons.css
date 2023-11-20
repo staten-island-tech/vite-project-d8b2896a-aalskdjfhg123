@@ -1,7 +1,7 @@
 .theme {
     font-size: 4rem;
     position: absolute;
-    top: 4.5vh;
+    top: 8vh;
     left: 4.5vw;
 }
 
@@ -17,14 +17,14 @@
     font-size: 2.2rem;
     position: absolute;
     position: relative;
-    top: 10rem;
+    top: 7rem;
     left: 3rem;
     z-index: 1;
     box-shadow: 4px 8px 19px -3px rgba(0, 0, 0, 0.27);
     border-radius: 15px;
     border: unset;
     padding: 1.5rem 2.5rem;
-    transition: all 250ms;
+    transition: all 150ms;
 }
 
 .buttonf::before {
@@ -36,7 +36,7 @@
     width: 0;
     border-radius: 15px;
     z-index: -1;
-    transition: all 250ms;
+    transition: all 150ms;
     background-color: var(--funkySecondary);
 }
 
@@ -53,14 +53,14 @@
     font-size: 2.2rem;
     position: absolute;
     position: relative;
-    top: 10rem;
+    top: 7rem;
     left: 6rem;
     z-index: 1;
     box-shadow: 4px 8px 19px -3px rgba(0, 0, 0, 0.27);
     border-radius: 15px;
     border: unset;
     padding: 1.5rem 2.5rem;
-    transition: all 250ms;
+    transition: all 150ms;
 
 }
 
@@ -73,7 +73,7 @@
     width: 0;
     border-radius: 15px;
     z-index: -1;
-    transition: all 250ms;
+    transition: all 150ms;
     background-color: var(--taterTertiary);
 }
 
@@ -95,7 +95,7 @@
     border-radius: 15px;
     border: unset;
     padding: 1.5rem 2.5rem;
-    transition: all 250ms;
+    transition: all 150ms;
 }
 
 .clear::before {
@@ -107,7 +107,7 @@
     width: 0;
     border-radius: 15px;
     z-index: -1;
-    transition: all 250ms;
+    transition: all 150ms;
     background-color: var(--buttonMain);
 }
 
@@ -129,7 +129,7 @@
     border-radius: 15px;
     border: unset;
     padding: 1.5rem 2.5rem;
-    transition: all 250ms;
+    transition: all 150ms;
 }
 
 .v1::before {
@@ -141,7 +141,7 @@
     width: 0;
     border-radius: 15px;
     z-index: -1;
-    transition: all 250ms;
+    transition: all 150ms;
     background-color: var(--buttonMain);
 }
 
@@ -163,7 +163,7 @@
     border-radius: 15px;
     border: unset;
     padding: 1.5rem 2.5rem;
-    transition: all 250ms;
+    transition: all 150ms;
 }
 
 .cheap::before {
@@ -175,7 +175,7 @@
     width: 0;
     border-radius: 15px;
     z-index: -1;
-    transition: all 250ms;
+    transition: all 150ms;
     background-color: var(--buttonMain);
 }
 

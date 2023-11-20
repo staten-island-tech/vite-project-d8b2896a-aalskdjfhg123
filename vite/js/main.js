@@ -5,8 +5,8 @@ import { fumos } from './fumos.js'
 import { noSort, sortV1, cheapest } from './fumo-filter.js'
 import { prices } from './fumo-filter-arrays.js'
 
-noSort(fumos)
- 
+/* noSort(fumos)
+ */ 
 button(dom.buttonH, dom.buttonF)
 
  dom.buttonClear.addEventListener("click", function () {

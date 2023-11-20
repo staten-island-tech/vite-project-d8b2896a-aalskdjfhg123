@@ -26,3 +26,8 @@ body{
   background-color: var(--main);
 }
 
+h1{
+text-align: center;
+font-size: 5rem;
+margin: 0;
+}

@@ -7,7 +7,6 @@ export const fumos = [
         <p class="card-description">40$</p>
       </div> `,
     version: 1,
-    availability: true,
     type: "regular",
     price: 40,
   },
@@ -20,7 +19,6 @@ export const fumos = [
         <p class="card-description">hi</p>
       </div> `,
     version: 1,
-    availability: false,
     type: "deka",
     price: 110
   },
@@ -32,7 +30,6 @@ export const fumos = [
     <h3 class="card-price">hi</h3>
     </div> `,
     version: 1.5,
-    availability: false,
     type: "strap",
     price: 20
   },
@@ -45,7 +42,6 @@ export const fumos = [
     <h3 class="card-price">hi</h3>
     </div> `,
     version: 1.5,
-    availability: true,
     type: "regular",
     price: 40
   },
