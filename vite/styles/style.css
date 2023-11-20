@@ -1,0 +1,28 @@
+@import url(vaiables.css);
+@import url(flex.css);
+@import url(buttons.css);
+
+.funky{
+  --main: var(--funkyMain);
+  --secondary: var(--funkySecondary);
+  --tertiary: var(--funkyTertiary);
+  --buttonMain: var(--funkySecondary);
+  --buttonSecondary: var(--funkyTertiary);
+}
+
+.tater{
+  --main: var(--taterMain);
+  --secondary: var(--taterSecondary);
+  --tertiary: var(--taterTertiary);
+  --buttonMain: var(--taterTertiary);
+  --buttonSecondary: var(--taterSecondary);
+}
+
+html,*{
+  font-size: 10px;
+}
+
+body{
+  background-color: var(--main);
+}
+
