@@ -2,7 +2,7 @@
 @import url(flex.css);
 @import url(buttons.css);
 
-.funky{
+.funky {
   --main: var(--funkyMain);
   --secondary: var(--funkySecondary);
   --tertiary: var(--funkyTertiary);
@@ -10,7 +10,7 @@
   --buttonSecondary: var(--funkyTertiary);
 }
 
-.tater{
+.tater {
   --main: var(--taterMain);
   --secondary: var(--taterSecondary);
   --tertiary: var(--taterTertiary);
@@ -18,16 +18,17 @@
   --buttonSecondary: var(--taterSecondary);
 }
 
-html,*{
+html,
+* {
   font-size: 10px;
 }
 
-body{
+body {
   background-color: var(--main);
 }
 
-h1{
-text-align: center;
-font-size: 5rem;
-margin: 0;
+h1 {
+  text-align: center;
+  font-size: 5rem;
+  margin: 0;
 }

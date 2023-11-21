@@ -1,33 +1,31 @@
 .theme {
     font-size: 4rem;
     position: absolute;
-    top: 8vh;
+    position: relative;
     left: 4.5vw;
 }
 
 .filters {
     font-size: 4rem;
     position: absolute;
-    top: 25vh;
+    position: relative;
+    top: 15vh;
     left: 4.5vw;
-
 }
 
-.buttonf {
+.button {
     font-size: 2.2rem;
     position: absolute;
-    position: relative;
-    top: 7rem;
-    left: 3rem;
     z-index: 1;
     box-shadow: 4px 8px 19px -3px rgba(0, 0, 0, 0.27);
     border-radius: 15px;
     border: unset;
     padding: 1.5rem 2.5rem;
     transition: all 150ms;
+    left: -5rem;
 }
 
-.buttonf::before {
+.button::before {
     content: "";
     position: absolute;
     top: 0;
@@ -37,152 +35,69 @@
     border-radius: 15px;
     z-index: -1;
     transition: all 150ms;
+    background-color: var(--buttonMain);
+}
+
+.button:hover {
+    color: var(--buttonSecondary);
+}
+
+.button:hover::before {
+    width: 100%;
+}
+
+
+#buttonf {
+    font-size: 2.2rem;
+    position: absolute;
+    top: 7rem;
+    left: -5rem;
+}
+
+#buttonf::before {
     background-color: var(--funkySecondary);
 }
 
-.buttonf:hover {
+#buttonf:hover {
     color: var(--funkyTertiary);
 }
 
-.buttonf:hover::before {
-    width: 100%;
-}
 
-
-.buttont {
-    font-size: 2.2rem;
+#buttont {
+    font-size: 2.35rem;
     position: absolute;
-    position: relative;
     top: 7rem;
-    left: 6rem;
-    z-index: 1;
-    box-shadow: 4px 8px 19px -3px rgba(0, 0, 0, 0.27);
-    border-radius: 15px;
-    border: unset;
-    padding: 1.5rem 2.5rem;
-    transition: all 150ms;
-
+    left: 10rem;
 }
 
-.buttont::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 0;
-    border-radius: 15px;
-    z-index: -1;
-    transition: all 150ms;
+#buttont::before {
     background-color: var(--taterTertiary);
 }
 
-.buttont:hover {
+#buttont:hover {
     color: var(--taterSecondary);
 }
 
-.buttont:hover::before {
-    width: 100%;
+#clear {
+    top: 7rem;
 }
 
-.clear {
-    font-size: 2.2rem;
-    position: absolute;
-    top: 30rem;
-    left: 4rem;
-    z-index: 1;
-    box-shadow: 4px 8px 19px -3px rgba(0, 0, 0, 0.27);
-    border-radius: 15px;
-    border: unset;
-    padding: 1.5rem 2.5rem;
-    transition: all 150ms;
+#cheap {
+    top: 15rem;
 }
 
-.clear::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 0;
-    border-radius: 15px;
-    z-index: -1;
-    transition: all 150ms;
-    background-color: var(--buttonMain);
+#v1 {
+    top: 23rem;
 }
 
-.clear:hover {
-    color: var(--buttonSecondary);
+#v15 {
+    top: 31rem;
 }
 
-.clear:hover::before {
-    width: 100%;
+#deka {
+    top: 39rem;
 }
 
-.v1 {
-    font-size: 2.2rem;
-    position: absolute;
-    top: 38rem;
-    left: 4rem;
-    z-index: 1;
-    box-shadow: 4px 8px 19px -3px rgba(0, 0, 0, 0.27);
-    border-radius: 15px;
-    border: unset;
-    padding: 1.5rem 2.5rem;
-    transition: all 150ms;
-}
-
-.v1::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 0;
-    border-radius: 15px;
-    z-index: -1;
-    transition: all 150ms;
-    background-color: var(--buttonMain);
-}
-
-.v1:hover {
-    color: var(--buttonSecondary);
-}
-
-.v1:hover::before {
-    width: 100%;
-}
-
-.cheap {
-    font-size: 2.2rem;
-    position: absolute;
-    top: 46rem;
-    left: 4rem;
-    z-index: 1;
-    box-shadow: 4px 8px 19px -3px rgba(0, 0, 0, 0.27);
-    border-radius: 15px;
-    border: unset;
-    padding: 1.5rem 2.5rem;
-    transition: all 150ms;
-}
-
-.cheap::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 0;
-    border-radius: 15px;
-    z-index: -1;
-    transition: all 150ms;
-    background-color: var(--buttonMain);
-}
-
-.cheap:hover {
-    color: var(--buttonSecondary);
-}
-
-.cheap:hover::before {
-    width: 100%;
+#strap {
+    top: 47rem
 }
