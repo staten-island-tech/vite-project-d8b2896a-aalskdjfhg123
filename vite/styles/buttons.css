@@ -46,6 +46,9 @@
     width: 100%;
 }
 
+.button:active{
+    transform: scale(.9);
+}
 
 #buttonf {
     font-size: 2.2rem;
