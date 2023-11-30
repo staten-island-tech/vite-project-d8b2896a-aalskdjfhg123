@@ -5,7 +5,7 @@ import { fumos } from './fumos.js'
 import { noSort, sortV1, cheapest, sortV15, sortDeka, sortStrap,insert } from './fumo-filter.js'
 import { prices } from './fumo-filter-arrays.js'
 
-noSort(fumos) //initial display
+insert(fumos) //initial display
  
 button(dom.buttonH, dom.buttonF) //theme changer
 

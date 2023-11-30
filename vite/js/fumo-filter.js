@@ -3,11 +3,7 @@ import { dom } from "./dom"
 export function insert(array) {
     dom.container.innerHTML = ""
     array.forEach((fumo) => dom.container.insertAdjacentHTML('beforeend', fumo.card))
-}
-
-export function noSort(array) {
-    insert(array)
-} //displays the cards as they are ordered in the array
+}//inserts the cards
 
 export function sortV1(array) {
     const arr = array.filter((fumo) => fumo.version == 1)
