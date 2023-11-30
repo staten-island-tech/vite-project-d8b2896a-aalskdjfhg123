@@ -12,4 +12,4 @@ export function button(button1, button2) {
         })
 
     })
-}
+} //makes button 1 change the theme to funky, button 2 to tater

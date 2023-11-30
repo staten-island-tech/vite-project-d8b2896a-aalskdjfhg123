@@ -8,5 +8,5 @@ export const dom = {
     buttonV15: document.querySelector('#v15'),
     buttonDeka: document.querySelector('#deka'),
     buttonStrap: document.querySelector('#strap')
-    
+    //its the dom
 }

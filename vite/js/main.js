@@ -2,12 +2,12 @@ import '../styles/style.css'
 import { button } from './theme.js'
 import { dom } from './dom.js'
 import { fumos } from './fumos.js'
-import { noSort, sortV1, cheapest, sortV15, sortDeka, sortStrap } from './fumo-filter.js'
+import { noSort, sortV1, cheapest, sortV15, sortDeka, sortStrap,insert } from './fumo-filter.js'
 import { prices } from './fumo-filter-arrays.js'
 
-noSort(fumos)
+noSort(fumos) //initial display
  
-button(dom.buttonH, dom.buttonF)
+button(dom.buttonH, dom.buttonF) //theme changer
 
  dom.buttonClear.addEventListener("click", function () {
     noSort(fumos);
@@ -31,4 +31,4 @@ dom.buttonDeka.addEventListener("click", function(){
 
 dom.buttonStrap.addEventListener("click", function(){
     sortStrap(fumos)
-})
+}) //switches displays
