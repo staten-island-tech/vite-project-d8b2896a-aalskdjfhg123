@@ -7,7 +7,8 @@ export const fumos = [
         <p class="card-title">Reimu</p>
         <p class="card-description">$40</p>
       </div> `, //the card, this is the thing being inserted into the html
-    name: "Reimu",
+    name: "Reimu", //inserting the card would be possible with template literals, but it looks nicer as fumo.card, plus on a smaller scale like this I think it's alright
+    //for larger and more complex projects template literals would probably be better
     version: 1,
     type: "regular",
     price: 40,  //these are used to sort the cards

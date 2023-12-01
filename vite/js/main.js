@@ -2,7 +2,7 @@ import '../styles/style.css'
 import { button } from './theme.js'
 import { dom } from './dom.js'
 import { fumos } from './fumos.js'
-import { noSort, sortV1, cheapest, sortV15, sortDeka, sortStrap,insert } from './fumo-filter.js'
+import { sortV1, cheapest, sortV15, sortDeka, sortStrap,insert } from './fumo-filter.js'
 import { prices } from './fumo-filter-arrays.js'
 
 insert(fumos) //initial display

@@ -36,4 +36,4 @@ export function sortStrap(array) {
         let condition = button.textContent.toLowerCase()
         let newArr = fumos.filter((fumo)=>fumo.)
     }))
-} */
+}  */
