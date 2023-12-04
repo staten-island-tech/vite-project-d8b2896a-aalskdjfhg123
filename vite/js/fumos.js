@@ -2,7 +2,7 @@
 export const fumos = [
   {
     card: `<div class="card">
-    <img src="public/reimu1.jpg" alt="reimu v1" class="card-img">
+    <img src="/reimu1.jpg" alt="reimu v1" class="card-img">
       <div class="card-content">
         <p class="card-title">Reimu</p>
         <p class="card-description">$40</p>
@@ -16,7 +16,7 @@ export const fumos = [
 
   {
     card: `<div class="card">
-    <img src="public/marisa1.jpg" alt="marisa v1" class="card-img">
+    <img src="/marisa1.jpg" alt="marisa v1" class="card-img">
       <div class="card-content">
         <p class="card-title">Marisa</p>
         <p class="card-description">$40</p>
@@ -29,7 +29,7 @@ export const fumos = [
 
   {
     card: `<div class="card">
-    <img src="public/suwako1.jpg" alt="suwako v1" class="card-img">
+    <img src="/suwako1.jpg" alt="suwako v1" class="card-img">
       <div class="card-content">
         <p class="card-title">Suwako</p>
         <p class="card-description">$40</p>
@@ -42,7 +42,7 @@ export const fumos = [
 
   {
     card: `<div class="card">
-    <img src="public/satori deka.jpg" alt="satori deka" class="card-img">
+    <img src="/satori deka.jpg" alt="satori deka" class="card-img">
       <div class="card-content">
         <p class="card-title">Satori(deka)</p>
         <p class="card-description">$110</p>
@@ -54,7 +54,7 @@ export const fumos = [
   },
   {
     card: `<div class="card">
-    <img src="public/reimu1.5.jpg" alt="reimu v1.5" class="card-img">
+    <img src="/reimu1.5.jpg" alt="reimu v1.5" class="card-img">
       <div class="card-content">
         <p class="card-title">Reimu(ver.1.5)</p>
         <p class="card-description">$40</p>
@@ -66,7 +66,7 @@ export const fumos = [
   },
   {
     card: `<div class="card">
-    <img src="public/marisa1.5.jpg" alt="marisa v1.5" class="card-img">
+    <img src="/marisa1.5.jpg" alt="marisa v1.5" class="card-img">
       <div class="card-content">
         <p class="card-title">Marisa(ver.1.5)</p>
         <p class="card-description">$40</p>
@@ -78,7 +78,7 @@ export const fumos = [
   },
   {
     card: `<div class="card">
-    <img src="public/flandre deka.jpg" alt="flandre 1.5 deka" class="card-img">
+    <img src="/flandre deka.jpg" alt="flandre 1.5 deka" class="card-img">
       <div class="card-content">
         <p class="card-title">Flandre(deka ver. 1.5)</p>
         <p class="card-description">$110</p>
@@ -90,7 +90,7 @@ export const fumos = [
   },
   {
     card: `<div class="card">
-    <img src="public/shion1.jpg" alt="shion v1" class="card-img">
+    <img src="/shion1.jpg" alt="shion v1" class="card-img">
       <div class="card-content">
         <p class="card-title">Shion</p>
         <p class="card-description">$40</p>
@@ -102,7 +102,7 @@ export const fumos = [
   },
   {
     card: `<div class="card">
-    <img src="public/youmu strap.jpg" alt="youmu strap" class="card-img">
+    <img src="/youmu strap.jpg" alt="youmu strap" class="card-img">
       <div class="card-content">
         <p class="card-title">Youmu(plush strap)</p>
         <p class="card-description">$20</p>
@@ -114,7 +114,7 @@ export const fumos = [
   },
   {
     card: `<div class="card">
-    <img src="public/yukari strap.jpg" alt="yukari strap" class="card-img">
+    <img src="/yukari strap.jpg" alt="yukari strap" class="card-img">
       <div class="card-content">
         <p class="card-title">Yukari(plush strap)</p>
         <p class="card-description">$20</p>
@@ -126,7 +126,7 @@ export const fumos = [
   },
   {
     card: `<div class="card">
-    <img src="public/suwako1.5.jpg" alt="suwako v1.5" class="card-img">
+    <img src="/suwako1.5.jpg" alt="suwako v1.5" class="card-img">
       <div class="card-content">
         <p class="card-title">Suwako(ver.1.5)</p>
         <p class="card-description">$40</p>
@@ -138,7 +138,7 @@ export const fumos = [
   },
   {
     card: `<div class="card">
-    <img src="public/sakuya deka.jpg" alt="sakuya deka" class="card-img">
+    <img src="/sakuya deka.jpg" alt="sakuya deka" class="card-img">
       <div class="card-content">
         <p class="card-title">Sakuya(deka)</p>
         <p class="card-description">$110</p>
