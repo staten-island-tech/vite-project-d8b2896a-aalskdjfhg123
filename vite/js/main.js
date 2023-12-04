@@ -10,7 +10,7 @@ insert(fumos) //initial display
 button(dom.buttonH, dom.buttonF) //theme changer
 
  dom.buttonClear.addEventListener("click", function () {
-    noSort(fumos);
+    insert(fumos);
 })
 
 dom.buttonV1.addEventListener("click", function(){
