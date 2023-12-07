@@ -36,4 +36,4 @@ export function sortStrap(array) {
         let condition = button.textContent.toLowerCase()
         let newArr = fumos.filter((fumo)=>fumo.)
     }))
-}  */
+}  */ //im not sure if this can work because of the way I'm filtering my things
